@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/lblPablo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pablo Palacios 8-975-537"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/lblDavid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roberto Fabbroni 8-975-537"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#FF5722"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/lblRoberto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roberto Bethancourt 8-975-537"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#FF5722"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/lblNumberGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1LS131"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#FF5722"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/lblNumberLab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laboratorio 5"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#FF5722"
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREAR USUARIO"
+        android:backgroundTint="#FF5722"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="crearUsuario"/>
+
+</LinearLayout>

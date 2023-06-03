@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainLoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblEmailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu Correo/Usuario"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/lblEmailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="correo@ejemplo.com"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:background="@drawable/box_shape_login"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAlignment="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/lblPassTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu Contraseña"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/lblPassInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="*********************"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:background="@drawable/box_shape_login"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio de Sesión"
+        android:onClick="ValidarUsuario"
+        android:backgroundTint="#FF5722"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
